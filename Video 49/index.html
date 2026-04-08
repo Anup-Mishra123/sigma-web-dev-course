@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS object Fit and Position</title>
+    <style>
+      .container {
+        height: 487px;
+        width: 465px;
+        border: 2px solid black;
+        background-color: azure;
+      }
+      img{
+        width: 465px;
+        height: 487px;
+        object-fit: cover;
+        object-position: top right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEDaMEoX0Tkzqw74YSBab3HI2czZ14hUpGxq1Wuko5h6hGPVhF"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
